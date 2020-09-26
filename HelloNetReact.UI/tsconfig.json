@@ -19,5 +19,5 @@
     "strictFunctionTypes": false,
     "target": "esnext"
   },
-  "include": [ "src/**/*" ]
+  "include": [ "src/**/*", "tests/MainPageTests.tsx", "tests/SignInPageTests.tsx" ]
 }

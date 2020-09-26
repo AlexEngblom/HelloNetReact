@@ -7,7 +7,7 @@ module.exports = {
   restoreMocks: true,
   setupFilesAfterEnv: ['<rootDir>/jest/setupAfterEnv.ts'],
   setupFiles: ['jest-plugin-context/setup'],
-  testMatch: ['<rootDir>/src/**/test.(ts|tsx)'],
+  testMatch: ['<rootDir>/tests/**/*.(ts|tsx)'],
   transform: {
     '\\.(svg|png|jpg)$': '<rootDir>/jest/empty.js',
     '\\.jsx?$': 'babel-jest',

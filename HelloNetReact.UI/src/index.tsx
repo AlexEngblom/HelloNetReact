@@ -3,8 +3,8 @@ import 'react-hot-loader'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import store, {Provider} from 'store'
-import Root from 'components/other/Root'
+import store, {Provider} from 'store/Store'
+import AppRoot from 'components/other/AppRoot'
 
 if (module.hot) {
   module.hot.accept()
@@ -12,7 +12,7 @@ if (module.hot) {
 
 ReactDOM.render(
   <Provider store={store}>
-    <Root />
+    <AppRoot />
   </Provider>,
   document.getElementById('wrapper')
 )

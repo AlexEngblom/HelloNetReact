@@ -9,6 +9,7 @@ type Props = {
   maxWidth?: string
   navbar?: boolean
   padded?: boolean
+  component?: any
 } & ContainerProps
 
 const WrappedContainer = ({children, navbar, padded = true, maxWidth = 'xl', component = 'main', ...rest}: Props) => {

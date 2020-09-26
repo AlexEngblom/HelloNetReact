@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloNetReact.Api", "HelloNetReact.Api\HelloNetReact.Api.csproj", "{36215CB1-9DB2-4C6C-989A-E8A0B0C71D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloNetReact.UI", "HelloNetReact.UI", "{24954700-299B-4A63-A6F5-48A726900F21}"
+	ProjectSection(SolutionItems) = preProject
+		HelloNetReact.UI\.gitignore = HelloNetReact.UI\.gitignore
+		HelloNetReact.UI\package-lock.json = HelloNetReact.UI\package-lock.json
+		HelloNetReact.UI\package.json = HelloNetReact.UI\package.json
+		HelloNetReact.UI\tsconfig.json = HelloNetReact.UI\tsconfig.json
+		HelloNetReact.UI\webpack.config.js = HelloNetReact.UI\webpack.config.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6F12A6D4-A4DF-43DC-9B79-9E08CE4826D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{21B8FA9A-1F97-4E44-99EE-354C85F51154}"
+	ProjectSection(SolutionItems) = preProject
+		HelloNetReact.UI\src\components\App.tsx = HelloNetReact.UI\src\components\App.tsx
+		HelloNetReact.UI\src\components\index.html = HelloNetReact.UI\src\components\index.html
+		HelloNetReact.UI\src\components\index.tsx = HelloNetReact.UI\src\components\index.tsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36215CB1-9DB2-4C6C-989A-E8A0B0C71D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36215CB1-9DB2-4C6C-989A-E8A0B0C71D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36215CB1-9DB2-4C6C-989A-E8A0B0C71D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36215CB1-9DB2-4C6C-989A-E8A0B0C71D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F12A6D4-A4DF-43DC-9B79-9E08CE4826D7} = {24954700-299B-4A63-A6F5-48A726900F21}
+		{21B8FA9A-1F97-4E44-99EE-354C85F51154} = {6F12A6D4-A4DF-43DC-9B79-9E08CE4826D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A510C259-881A-4746-B21A-060709B2D0AB}
+	EndGlobalSection
+EndGlobal

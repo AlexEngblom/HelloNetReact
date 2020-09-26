@@ -1,6 +1,5 @@
 import {makeStyles} from '@material-ui/core/styles'
-
-import {sideBarWidth} from './SideBarStyles'
+import {sideBarWidth} from './DashboardLayout'
 
 export default makeStyles((theme) => ({
   wrapper: {

@@ -10,7 +10,7 @@ type Props = {
   remove: (id: number) => void
 }
 
-const MainContentEntry = ({id, title, image, remove}: Props) => {
+const Product = ({id, title, image, remove}: Props) => {
   const classes = useStyles()
 
   function onRemove() {
@@ -38,4 +38,4 @@ const MainContentEntry = ({id, title, image, remove}: Props) => {
   )
 }
 
-export default MainContentEntry
+export default Product

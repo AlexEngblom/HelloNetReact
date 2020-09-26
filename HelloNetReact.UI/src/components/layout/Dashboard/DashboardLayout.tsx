@@ -40,4 +40,5 @@ const DashboardLayout = () => {
   )
 }
 
+export const sideBarWidth = 240
 export default DashboardLayout

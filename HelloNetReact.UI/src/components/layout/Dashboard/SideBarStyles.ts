@@ -1,6 +1,5 @@
 import {makeStyles} from '@material-ui/core/styles'
-
-export const sideBarWidth = 240
+import { sideBarWidth } from './DashboardLayout'
 
 export default makeStyles((theme) => ({
   drawerPaper: {
